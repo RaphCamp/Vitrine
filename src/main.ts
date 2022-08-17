@@ -4,7 +4,7 @@ import App from './App.vue'
 
 createApp(App).mount('#app')
 
-const stars = document.querySelectorAll('div');
+const stars = document.querySelectorAll('.star');
 const hyper = document.getElementById('hyper');
 const hyperScale = document.getElementById('hyper-range');
 
