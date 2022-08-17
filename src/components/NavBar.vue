@@ -17,7 +17,7 @@ import { ref } from 'vue'
 <style scoped>
 #nav {
     display: flex;
-    background-color: rgb(18, 20, 53);
+    background-color: rgb(37, 40, 105);
     width: 100%;
     height: 50px;
     margin: 0;
