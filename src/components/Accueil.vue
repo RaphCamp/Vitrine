@@ -1,16 +1,19 @@
 <script setup lang="ts">
+import { ref } from 'vue'
 
 </script>
 
 <template>
   <div id="accueil">
-  <div id="banner">
-  <h1>Raphael Codewalker</h1>
+    <div id="banner">
+      <h1>Raphael Codewalker</h1>
+    </div>
+    <div id="illustration"></div>
+    <div id="presentation"></div>
   </div>
-  <div id="illustration"></div>
-  <div id="presentation"></div>
-  </div>
+
 </template>
+
 
 
 <style scoped>
@@ -26,4 +29,6 @@
 #banner h1 {
   color: rgb(238, 255, 0);
 }
+
+
 </style>
