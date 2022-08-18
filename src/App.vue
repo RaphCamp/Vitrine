@@ -4,11 +4,13 @@
 import HelloWorld from './components/HelloWorld.vue'
 import NavBar from './components/NavBar.vue';
 import Accueil from './components/Accueil.vue'
+import Space from "./components/Space.vue";
 </script>
 
 <template>
-  <NavBar />
-  <Accueil />
+  <NavBar></NavBar>
+  <Accueil></Accueil>
+  <Space></Space>
 </template>
 
 <style scoped>
