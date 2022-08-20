@@ -12,7 +12,7 @@ import { ref } from 'vue'
     <div class="presentation">
         <!-- Blue Intro Text -->
         <p class="introduction">
-          A few days ago, during...
+          Not a few days ago, just right now...
         </p>
         <!-- Logo Image or Text goes in here -->
         <h2 class="logo">
@@ -21,10 +21,13 @@ import { ref } from 'vue'
         <!-- All Scrolling Content Goes in here -->
         <div class="scrolling">
           <div class="texte">
-            <p class="titre">EPISODES IV-VI<br/>A Movie Marathon</p>
+            <p class="titre">Raphael Codewalker<br/>Un nouveau développeur</p>
             <br>
             <p class="paragraphe">
-              After years of galactic silence, civilization is on the brink of a new Star Wars release. Now, with the Force preparing to awaken, the people of Earth seek solace in films of old. With nowhere to turn, they gather in great numbers and watch the original trilogy without rest. Three films. 6 hours. 24 minutes. Popcorn. Slushies. Total elation.
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque adipisci optio veritatis 
+              nobis voluptatibus magni omnis quibusdam quos velit ab. Necessitatibus sed quisquam dolore quibusdam porro numquam repellendus aut sequi?
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque adipisci optio veritatis 
+              nobis voluptatibus magni omnis quibusdam quos velit ab. Necessitatibus sed quisquam dolore quibusdam porro numquam repellendus aut sequi?
             </p>
             <!-- button or link or whatever -->
             <a href="./StarScroll.zip" class="space-button">Download The Code Now!</a>
