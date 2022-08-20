@@ -64,14 +64,13 @@ import { ref } from 'vue'
 }
 
 .presentation {
-  background: url("img/stars-bg.jpg") center center;
   width: 100%;
   height: 100%;
   font-family: "Droid Sans", arial, verdana, sans-serif;
   font-weight: 700;
   color: #EBD71C;
   overflow: hidden;
-  position: relative;
+  position: absolute;
 }
 
 .presentation p.introduction {
@@ -92,19 +91,21 @@ import { ref } from 'vue'
 }
 
 .presentation .scrolling{
-  margin-left: auto;
-  margin-right: auto;
   position: absolute;
   z-index: 3;
   width: 98%;
+  margin-left: auto;
+  margin-right: auto;
   height: 50em;
   bottom: 0;
-  font-size: 200px;
+  font-size: 150px;
   font-weight: bold;
   text-align: justify;
   overflow: hidden;
   transform-origin: 50% 100%;
   transform: perspective(350px) rotateX(12deg);
+  display: flex;
+  justify-content: center;
 }
 
 .presentation .scrolling:after {
@@ -145,12 +146,13 @@ import { ref } from 'vue'
   top: 100%;
   animation: scroll 100s linear 4s forwards infinite ;
   line-height: 1em;
+  max-width: 1800px;
+
 }
 
 .presentation .texte > .titre {
   text-align: center;
 }
-
 /* Main Image Styles */
 
 .presentation .logo {
@@ -247,6 +249,16 @@ import { ref } from 'vue'
 @media screen and (max-width: 720px) {
   .presentation .scrolling {
     font-size: 35px;
+  }
+  .presentation .texte {
+    position: absolute;
+    top: 100%;
+    animation: scroll 100s linear 4s forwards;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .presentation .scrolling {
+    font-size: 70px;
   }
   .presentation .texte {
     position: absolute;
