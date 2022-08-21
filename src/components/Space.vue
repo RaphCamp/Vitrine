@@ -6,14 +6,6 @@ import { ref } from 'vue'
 <template>
     <div id="universe">
       <div id="tel">
-        <div class="star" style="transform: rotateZ(188deg); animation-duration: 2.461s; animation-delay: 2.683s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(237deg); animation-duration: 1.51s; animation-delay: 2.398s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(255deg); animation-duration: 2.826s; animation-delay: 0.727s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(262deg); animation-duration: 1.481s; animation-delay: 1.498s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(96deg); animation-duration: 2.595s; animation-delay: 1.636s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(144deg); animation-duration: 1.301s; animation-delay: 0.042s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(191deg); animation-duration: 1.508s; animation-delay: 1.041s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(178deg); animation-duration: 2.766s; animation-delay: 2.702s;"><div class="point"></div></div>
         <div class="star" style="transform: rotateZ(52deg); animation-duration: 2.431s; animation-delay: 2.172s;"><div class="point"></div></div>
         <div class="star" style="transform: rotateZ(246deg); animation-duration: 2.272s; animation-delay: 0.343s;"><div class="point"></div></div>
         <div class="star" style="transform: rotateZ(280deg); animation-duration: 2.797s; animation-delay: 0.618s;"><div class="point"></div></div>
@@ -74,6 +66,9 @@ import { ref } from 'vue'
         <div class="star" style="transform: rotateZ(33deg); animation-duration: 1.614s; animation-delay: 0.933s;"><div class="point"></div></div>
         <div class="star" style="transform: rotateZ(306deg); animation-duration: 2.563s; animation-delay: 2.617s;"><div class="point"></div></div>
         <div class="star" style="transform: rotateZ(258deg); animation-duration: 2.008s; animation-delay: 0.85s;"><div class="point"></div></div>
+        <div class="star" style="transform: rotateZ(346deg); animation-duration: 2.79s; animation-delay: 1.463s;"><div class="point"></div></div>
+      </div>
+      <div id="tablette">
         <div class="star" style="transform: rotateZ(356deg); animation-duration: 2.196s; animation-delay: 1.276s;"><div class="point"></div></div>
         <div class="star" style="transform: rotateZ(96deg); animation-duration: 1.58s; animation-delay: 1.688s;"><div class="point"></div></div>
         <div class="star" style="transform: rotateZ(62deg); animation-duration: 2.772s; animation-delay: 1.341s;"><div class="point"></div></div>
@@ -100,8 +95,16 @@ import { ref } from 'vue'
         <div class="star" style="transform: rotateZ(294deg); animation-duration: 2.647s; animation-delay: 2.044s;"><div class="point"></div></div>
         <div class="star" style="transform: rotateZ(204deg); animation-duration: 1.646s; animation-delay: 1.318s;"><div class="point"></div></div>
         <div class="star" style="transform: rotateZ(84deg); animation-duration: 1.222s; animation-delay: 0.424s;"><div class="point"></div></div>
-      </div>
-      <div id="tablette">
+        <div class="star" style="transform: rotateZ(92deg); animation-duration: 1.752s; animation-delay: 0.86s;"><div class="point"></div></div>
+        <div class="star" style="transform: rotateZ(208deg); animation-duration: 2.207s; animation-delay: 0.676s;"><div class="point"></div></div>
+        <div class="star" style="transform: rotateZ(327deg); animation-duration: 2.452s; animation-delay: 1.73s;"><div class="point"></div></div>
+        <div class="star" style="transform: rotateZ(246deg); animation-duration: 1.951s; animation-delay: 2.935s;"><div class="point"></div></div>
+        <div class="star" style="transform: rotateZ(61deg); animation-duration: 2.806s; animation-delay: 2.433s;"><div class="point"></div></div>
+        <div class="star" style="transform: rotateZ(97deg); animation-duration: 2.969s; animation-delay: 2.78s;"><div class="point"></div></div>
+        <div class="star" style="transform: rotateZ(4deg); animation-duration: 1.578s; animation-delay: 2.739s;"><div class="point"></div></div>
+        <div class="star" style="transform: rotateZ(33deg); animation-duration: 1.454s; animation-delay: 0.737s;"><div class="point"></div></div>
+        <div class="star" style="transform: rotateZ(281deg); animation-duration: 2.412s; animation-delay: 0.994s;"><div class="point"></div></div>
+        <div class="star" style="transform: rotateZ(259deg); animation-duration: 2.544s; animation-delay: 1.065s;"><div class="point"></div></div>
         <div class="star" style="transform: rotateZ(25deg); animation-duration: 1.839s; animation-delay: 0.171s;"><div class="point"></div></div>
         <div class="star" style="transform: rotateZ(205deg); animation-duration: 1.558s; animation-delay: 0.919s;"><div class="point"></div></div>
         <div class="star" style="transform: rotateZ(53deg); animation-duration: 1.724s; animation-delay: 2.665s;"><div class="point"></div></div>
@@ -127,7 +130,8 @@ import { ref } from 'vue'
         <div class="star" style="transform: rotateZ(355deg); animation-duration: 1.641s; animation-delay: 0.143s;"><div class="point"></div></div>
         <div class="star" style="transform: rotateZ(284deg); animation-duration: 2.978s; animation-delay: 1.579s;"><div class="point"></div></div>
         <div class="star" style="transform: rotateZ(177deg); animation-duration: 1.593s; animation-delay: 1.83s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(346deg); animation-duration: 2.79s; animation-delay: 1.463s;"><div class="point"></div></div>
+      </div>
+      <div id="pc">
         <div class="star" style="transform: rotateZ(260deg); animation-duration: 1.654s; animation-delay: 2.273s;"><div class="point"></div></div>
         <div class="star" style="transform: rotateZ(97deg); animation-duration: 1.051s; animation-delay: 0.457s;"><div class="point"></div></div>
         <div class="star" style="transform: rotateZ(336deg); animation-duration: 1.081s; animation-delay: 2.982s;"><div class="point"></div></div>
@@ -198,148 +202,13 @@ import { ref } from 'vue'
         <div class="star" style="transform: rotateZ(314deg); animation-duration: 2.327s; animation-delay: 2.423s;"><div class="point"></div></div>
         <div class="star" style="transform: rotateZ(130deg); animation-duration: 2.469s; animation-delay: 2.521s;"><div class="point"></div></div>
         <div class="star" style="transform: rotateZ(13deg); animation-duration: 1.067s; animation-delay: 1.702s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(178deg); animation-duration: 2.766s; animation-delay: 2.702s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(52deg); animation-duration: 2.431s; animation-delay: 2.172s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(246deg); animation-duration: 2.272s; animation-delay: 0.343s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(280deg); animation-duration: 2.797s; animation-delay: 0.618s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(186deg); animation-duration: 2.977s; animation-delay: 2.533s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(262deg); animation-duration: 1.32s; animation-delay: 1.758s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(12deg); animation-duration: 1.25s; animation-delay: 2.261s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(200deg); animation-duration: 1.513s; animation-delay: 0.627s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(104deg); animation-duration: 1.458s; animation-delay: 1.773s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(318deg); animation-duration: 2.096s; animation-delay: 0.264s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(313deg); animation-duration: 2.364s; animation-delay: 2.901s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(232deg); animation-duration: 2.919s; animation-delay: 1.761s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(85deg); animation-duration: 1.542s; animation-delay: 1.96s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(291deg); animation-duration: 1.398s; animation-delay: 2.907s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(270deg); animation-duration: 2.986s; animation-delay: 1.139s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(106deg); animation-duration: 2.003s; animation-delay: 2.411s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(337deg); animation-duration: 2.8s; animation-delay: 1.526s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(197deg); animation-duration: 2.744s; animation-delay: 2.997s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(281deg); animation-duration: 1.732s; animation-delay: 0.788s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(194deg); animation-duration: 1.647s; animation-delay: 2.334s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(185deg); animation-duration: 1.404s; animation-delay: 2.757s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(195deg); animation-duration: 1.821s; animation-delay: 1.265s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(277deg); animation-duration: 1.887s; animation-delay: 0.803s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(120deg); animation-duration: 1.382s; animation-delay: 0.357s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(51deg); animation-duration: 1.857s; animation-delay: 0.695s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(163deg); animation-duration: 1.389s; animation-delay: 2.926s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(139deg); animation-duration: 1.268s; animation-delay: 1.508s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(43deg); animation-duration: 2.229s; animation-delay: 0.711s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(188deg); animation-duration: 2.484s; animation-delay: 0.01s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(26deg); animation-duration: 1.984s; animation-delay: 0.623s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(187deg); animation-duration: 1.475s; animation-delay: 1.615s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(297deg); animation-duration: 2.313s; animation-delay: 0.899s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(327deg); animation-duration: 2.155s; animation-delay: 2.359s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(250deg); animation-duration: 1.609s; animation-delay: 0.956s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(197deg); animation-duration: 2.45s; animation-delay: 1.317s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(329deg); animation-duration: 2.934s; animation-delay: 1.514s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(211deg); animation-duration: 2.681s; animation-delay: 1.282s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(272deg); animation-duration: 2.606s; animation-delay: 0.686s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(273deg); animation-duration: 1.289s; animation-delay: 1.242s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(223deg); animation-duration: 1.777s; animation-delay: 1.9s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(104deg); animation-duration: 2.283s; animation-delay: 2.161s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(53deg); animation-duration: 2.881s; animation-delay: 0.328s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(237deg); animation-duration: 1.261s; animation-delay: 0.542s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(316deg); animation-duration: 2.962s; animation-delay: 1.069s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(190deg); animation-duration: 2.618s; animation-delay: 2.262s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(349deg); animation-duration: 1.69s; animation-delay: 0.255s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(108deg); animation-duration: 1.934s; animation-delay: 1.908s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(45deg); animation-duration: 2.604s; animation-delay: 0.791s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(107deg); animation-duration: 2.767s; animation-delay: 2.41s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(44deg); animation-duration: 1.16s; animation-delay: 0.981s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(175deg); animation-duration: 2.383s; animation-delay: 2.775s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(197deg); animation-duration: 1.589s; animation-delay: 0.235s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(46deg); animation-duration: 2.631s; animation-delay: 0.307s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(207deg); animation-duration: 1.735s; animation-delay: 0.779s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(327deg); animation-duration: 2.394s; animation-delay: 1.523s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(283deg); animation-duration: 2.239s; animation-delay: 0.1s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(340deg); animation-duration: 1.184s; animation-delay: 1.05s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(222deg); animation-duration: 2.73s; animation-delay: 0.289s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(33deg); animation-duration: 1.614s; animation-delay: 0.933s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(306deg); animation-duration: 2.563s; animation-delay: 2.617s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(258deg); animation-duration: 2.008s; animation-delay: 0.85s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(356deg); animation-duration: 2.196s; animation-delay: 1.276s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(96deg); animation-duration: 1.58s; animation-delay: 1.688s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(62deg); animation-duration: 2.772s; animation-delay: 1.341s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(132deg); animation-duration: 1.537s; animation-delay: 0.511s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(70deg); animation-duration: 1.27s; animation-delay: 0.18s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(323deg); animation-duration: 2.557s; animation-delay: 1.205s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(184deg); animation-duration: 1.755s; animation-delay: 1.14s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(319deg); animation-duration: 2.488s; animation-delay: 1.685s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(315deg); animation-duration: 1.194s; animation-delay: 2.639s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(46deg); animation-duration: 2.14s; animation-delay: 2.573s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(264deg); animation-duration: 2.204s; animation-delay: 2.281s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(48deg); animation-duration: 1.861s; animation-delay: 0.429s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(187deg); animation-duration: 2.208s; animation-delay: 2.616s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(305deg); animation-duration: 1.542s; animation-delay: 0.87s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(35deg); animation-duration: 2.058s; animation-delay: 1.015s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(119deg); animation-duration: 1.997s; animation-delay: 0.125s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(171deg); animation-duration: 2.482s; animation-delay: 0.306s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(196deg); animation-duration: 2.511s; animation-delay: 2.67s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(48deg); animation-duration: 2.98s; animation-delay: 0.59s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(226deg); animation-duration: 2.096s; animation-delay: 1.245s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(168deg); animation-duration: 2.297s; animation-delay: 2.464s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(270deg); animation-duration: 2.813s; animation-delay: 0.98s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(249deg); animation-duration: 1.532s; animation-delay: 1.065s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(294deg); animation-duration: 2.647s; animation-delay: 2.044s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(204deg); animation-duration: 1.646s; animation-delay: 1.318s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(84deg); animation-duration: 1.222s; animation-delay: 0.424s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(92deg); animation-duration: 1.752s; animation-delay: 0.86s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(208deg); animation-duration: 2.207s; animation-delay: 0.676s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(327deg); animation-duration: 2.452s; animation-delay: 1.73s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(246deg); animation-duration: 1.951s; animation-delay: 2.935s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(61deg); animation-duration: 2.806s; animation-delay: 2.433s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(97deg); animation-duration: 2.969s; animation-delay: 2.78s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(4deg); animation-duration: 1.578s; animation-delay: 2.739s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(33deg); animation-duration: 1.454s; animation-delay: 0.737s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(281deg); animation-duration: 2.412s; animation-delay: 0.994s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(259deg); animation-duration: 2.544s; animation-delay: 1.065s;"><div class="point"></div></div>
-      </div>
-      <div id="pc">
-        <div class="star" style="transform: rotateZ(92deg); animation-duration: 1.752s; animation-delay: 0.86s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(208deg); animation-duration: 2.207s; animation-delay: 0.676s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(327deg); animation-duration: 2.452s; animation-delay: 1.73s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(246deg); animation-duration: 1.951s; animation-delay: 2.935s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(61deg); animation-duration: 2.806s; animation-delay: 2.433s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(97deg); animation-duration: 2.969s; animation-delay: 2.78s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(4deg); animation-duration: 1.578s; animation-delay: 2.739s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(33deg); animation-duration: 1.454s; animation-delay: 0.737s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(281deg); animation-duration: 2.412s; animation-delay: 0.994s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(259deg); animation-duration: 2.544s; animation-delay: 1.065s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(25deg); animation-duration: 1.839s; animation-delay: 0.171s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(205deg); animation-duration: 1.558s; animation-delay: 0.919s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(53deg); animation-duration: 1.724s; animation-delay: 2.665s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(354deg); animation-duration: 2.412s; animation-delay: 2.923s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(356deg); animation-duration: 1.177s; animation-delay: 0.455s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(288deg); animation-duration: 1.838s; animation-delay: 2.346s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(155deg); animation-duration: 2.358s; animation-delay: 2.983s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(200deg); animation-duration: 2.465s; animation-delay: 0.601s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(210deg); animation-duration: 1.209s; animation-delay: 1.292s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(307deg); animation-duration: 1.187s; animation-delay: 0.221s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(177deg); animation-duration: 1.247s; animation-delay: 2.167s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(349deg); animation-duration: 2.086s; animation-delay: 1.974s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(281deg); animation-duration: 1.317s; animation-delay: 1.36s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(207deg); animation-duration: 1.515s; animation-delay: 2.072s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(301deg); animation-duration: 2.022s; animation-delay: 0.043s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(101deg); animation-duration: 1.202s; animation-delay: 1.422s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(29deg); animation-duration: 1.484s; animation-delay: 0.695s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(108deg); animation-duration: 1.517s; animation-delay: 1.422s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(182deg); animation-duration: 2.596s; animation-delay: 2.038s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(149deg); animation-duration: 1.749s; animation-delay: 2.884s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(92deg); animation-duration: 2.052s; animation-delay: 2.896s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(16deg); animation-duration: 1.439s; animation-delay: 0.96s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(355deg); animation-duration: 1.641s; animation-delay: 0.143s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(284deg); animation-duration: 2.978s; animation-delay: 1.579s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(177deg); animation-duration: 1.593s; animation-delay: 1.83s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(346deg); animation-duration: 2.79s; animation-delay: 1.463s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(260deg); animation-duration: 1.654s; animation-delay: 2.273s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(97deg); animation-duration: 1.051s; animation-delay: 0.457s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(336deg); animation-duration: 1.081s; animation-delay: 2.982s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(86deg); animation-duration: 1.93s; animation-delay: 0.272s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(131deg); animation-duration: 1.282s; animation-delay: 1.892s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(301deg); animation-duration: 2.369s; animation-delay: 0.891s;"><div class="point"></div></div>
-        <div class="star" style="transform: rotateZ(325deg); animation-duration: 1.557s; animation-delay: 2.102s;"><div class="point"></div></div>
+        <div class="star" style="transform: rotateZ(188deg); animation-duration: 2.461s; animation-delay: 2.683s;"><div class="point"></div></div>
+        <div class="star" style="transform: rotateZ(237deg); animation-duration: 1.51s; animation-delay: 2.398s;"><div class="point"></div></div>
+        <div class="star" style="transform: rotateZ(255deg); animation-duration: 2.826s; animation-delay: 0.727s;"><div class="point"></div></div>
+        <div class="star" style="transform: rotateZ(262deg); animation-duration: 1.481s; animation-delay: 1.498s;"><div class="point"></div></div>
+        <div class="star" style="transform: rotateZ(96deg); animation-duration: 2.595s; animation-delay: 1.636s;"><div class="point"></div></div>
+        <div class="star" style="transform: rotateZ(144deg); animation-duration: 1.301s; animation-delay: 0.042s;"><div class="point"></div></div>
+        <div class="star" style="transform: rotateZ(191deg); animation-duration: 1.508s; animation-delay: 1.041s;"><div class="point"></div></div>
       </div>
     </div>
 </template>

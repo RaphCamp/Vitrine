@@ -49,4 +49,8 @@ import { ref } from 'vue'
 #else {
     flex: 3;
 }
+
+@media screen and (max-width:720px) {
+
+}
 </style>
