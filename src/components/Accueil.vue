@@ -5,9 +5,6 @@ import { ref } from 'vue'
 
 <template>
   <div id="accueil">
-    <div id="banner">
-      <h1>Raphael Codewalker</h1>
-    </div>
     <!-- Place in Body where you'd like intro to appear -->
     <div class="presentation">
         <!-- Blue Intro Text -->
@@ -44,18 +41,6 @@ import { ref } from 'vue'
   position:relative;
   width: 100%;
   height: 100%;
-}
-#banner {
-  background-color: rgb(25, 22, 75);
-  width: 100%;
-  height: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  border-bottom: 5px solid rgb(238, 255, 0);
-}
-#banner h1 {
-  color: rgb(238, 255, 0);
 }
 #content{
   display: flex;
