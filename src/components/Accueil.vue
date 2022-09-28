@@ -24,11 +24,11 @@ import { ref } from 'vue'
               Un nouveau développeur</p>
             <br>
             <p class="paragraphe">
-              Après 5 ans dans l'industrie aéro&shy;nautique, le jeune Code&shy;walker se forme sur les langages web.
+              Après 5 ans dans l'in&shy;dus&shy;trie aéro&shy;nau&shy;tique, le jeune Code&shy;walker se forme sur les lan&shy;ga&shy;ges web.
               <br/>
-              Il trouve ensuite une alternance au sein de Cegid, dans le dévelop&shy;pement, et obtient son premier diplôme dans ce domaine.
+              Il trouve en&shy;sui&shy;te une alter&shy;nance au sein de Cegid, dans le dé&shy;ve&shy;lop&shy;pement, et obtient son pre&shy;mier di&shy;plô&shy;me dans ce do&shy;mai&shy;ne.
               <br/>
-              Sa mission terminée, Codewalker se met désormais à la recherche d'une entre&shy;prise pour débuter le travail de ses rêves...
+              Sa mis&shy;sion ter&shy;mi&shy;née, Code&shy;walker se met dé&shy;sor&shy;mais à la re&shy;cher&shy;che d'une en&shy;tre&shy;pri&shy;se pour dé&shy;bu&shy;ter le tra&shy;vail de ses rêves...
             </p>
             <!-- button or link or whatever -->
             <a href="**" class="space-button">Découvrez son CV</a>
