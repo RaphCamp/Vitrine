@@ -24,7 +24,7 @@ import { ref } from 'vue'
               Un nouveau développeur</p>
             <br>
             <p class="paragraphe">
-              Après 5 ans dans l'in&shy;dus&shy;trie aéro&shy;nau&shy;tique, le jeune Code&shy;walker se forme sur les lan&shy;ga&shy;ges web.
+              Après 5 ans dans l'in&shy;dus&shy;trie aé&shy;ro&shy;nau&shy;tique, le jeune Code&shy;walker se forme sur les lan&shy;ga&shy;ges web.
               <br/>
               Il trouve en&shy;sui&shy;te une alter&shy;nance au sein de Cegid, dans le dé&shy;ve&shy;lop&shy;pement, et obtient son pre&shy;mier di&shy;plô&shy;me dans ce do&shy;mai&shy;ne.
               <br/>
