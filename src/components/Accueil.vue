@@ -247,7 +247,6 @@ import { ref } from 'vue'
   .presentation .texte {
     position: absolute;
     top: 100%;
-    animation: scroll 25s linear 4s forwards;
   }
   @keyframes scroll {
   0% { top: 100%; }
@@ -259,11 +258,6 @@ import { ref } from 'vue'
 @media screen and (max-width: 720px) {
   .presentation .scrolling {
     font-size: 35px;
-  }
-  .presentation .texte {
-    position: absolute;
-    top: 100%;
-    animation: scroll 25s linear 4s forwards;
   }
 }
 
