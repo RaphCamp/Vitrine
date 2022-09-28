@@ -18,16 +18,20 @@ import { ref } from 'vue'
         <!-- All Scrolling Content Goes in here -->
         <div class="scrolling">
           <div class="texte">
-            <p class="titre">Raphael Codewalker<br/>Un nouveau développeur</p>
+            <p class="titre">
+              Raphael Codewalker
+              <br/>
+              Un nouveau développeur</p>
             <br>
             <p class="paragraphe">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque adipisci optio veritatis 
-              nobis voluptatibus magni omnis quibusdam quos velit ab. Necessitatibus sed quisquam dolore quibusdam porro numquam repellendus aut sequi?
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque adipisci optio veritatis 
-              nobis voluptatibus magni omnis quibusdam quos velit ab. Necessitatibus sed quisquam dolore quibusdam porro numquam repellendus aut sequi?
+              Après 5 ans dans l'industrie aéro&shy;nautique, le jeune Code&shy;walker se forme sur les langages web.
+              <br/>
+              Il trouve ensuite une alternance au sein de Cegid, dans le dévelop&shy;pement, et obtient son premier diplôme dans ce domaine.
+              <br/>
+              Sa mission terminée, Codewalker se met désormais à la recherche d'une entre&shy;prise pour débuter le travail de ses rêves...
             </p>
             <!-- button or link or whatever -->
-            <a href="./StarScroll.zip" class="space-button">Download The Code Now!</a>
+            <a href="**" class="space-button">Découvrez son CV</a>
           </div>
         </div>
       </div>
@@ -37,6 +41,8 @@ import { ref } from 'vue'
 
 
 <style scoped>
+
+
 #accueil{
   position:relative;
   width: 100%;
@@ -60,7 +66,7 @@ import { ref } from 'vue'
 
 .presentation p.introduction {
   position: relative;
-  max-width: 16em;
+  max-width: 100%;
   font-size: 200%;
   font-weight: 400;
   margin: 20% auto;
@@ -86,6 +92,7 @@ import { ref } from 'vue'
   font-size: 150px;
   font-weight: bold;
   text-align: justify;
+  hyphens: manual;
   overflow: hidden;
   transform-origin: 50% 100%;
   transform: perspective(350px) rotateX(12deg);
@@ -129,9 +136,10 @@ import { ref } from 'vue'
 .presentation .texte {
   position: absolute;
   top: 100%;
-  animation: scroll 100s linear 4s forwards infinite ;
+  animation: scroll 25s linear 4s forwards infinite ;
   line-height: 1em;
-  max-width: 1800px;
+  width: 2400px;
+  max-width: 98%;
 
 }
 
@@ -228,6 +236,7 @@ import { ref } from 'vue'
 
 @keyframes scroll {
   0% { top: 100%; }
+  95% {top:30%}
   100% { top: -150%; }
 }
 
@@ -238,7 +247,7 @@ import { ref } from 'vue'
   .presentation .texte {
     position: absolute;
     top: 100%;
-    animation: scroll 100s linear 4s forwards;
+    animation: scroll 25s linear 4s forwards;
   }
 }
 @media screen and (max-width: 1400px) {
@@ -248,8 +257,13 @@ import { ref } from 'vue'
   .presentation .texte {
     position: absolute;
     top: 100%;
-    animation: scroll 100s linear 4s forwards;
+    animation: scroll 25s linear 4s forwards;
   }
+  @keyframes scroll {
+  0% { top: 100%; }
+  95% {top:0%}
+  100% { top: -150%; }
+}
 }
 
 
