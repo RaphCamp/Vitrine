@@ -139,7 +139,7 @@ import { ref } from 'vue'
   animation: scroll 25s linear 4s forwards infinite ;
   line-height: 1em;
   width: 2400px;
-  max-width: 98%;
+  max-width: 95%;
 
 }
 
@@ -240,16 +240,6 @@ import { ref } from 'vue'
   100% { top: -150%; }
 }
 
-@media screen and (max-width: 720px) {
-  .presentation .scrolling {
-    font-size: 35px;
-  }
-  .presentation .texte {
-    position: absolute;
-    top: 100%;
-    animation: scroll 25s linear 4s forwards;
-  }
-}
 @media screen and (max-width: 1400px) {
   .presentation .scrolling {
     font-size: 70px;
@@ -266,5 +256,15 @@ import { ref } from 'vue'
 }
 }
 
+@media screen and (max-width: 720px) {
+  .presentation .scrolling {
+    font-size: 35px;
+  }
+  .presentation .texte {
+    position: absolute;
+    top: 100%;
+    animation: scroll 25s linear 4s forwards;
+  }
+}
 
 </style>
