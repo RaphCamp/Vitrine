@@ -1,31 +1,29 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 
-const musicButton = document.querySelector<HTMLButtonElement>("#musicButton");
-const icone = document.querySelector<HTMLImageElement>("#musicButton > img");
-const audio = document.querySelector<HTMLAudioElement>("#musicAudio");
-if(musicButton && audio && icone) {
-  musicButton.addEventListener("click", () => {
+var icone : HTMLImageElement | null = new Image();
+const audio = new Audio("src/audio/GALACTIC_FILMSTRO.mp3");
+  function playMusic() {
+    icone = document.querySelector<HTMLImageElement>('#musicIcone');
+    if(audio && icone) {
   if (audio.paused) {
   audio.volume = 0.9;
   audio.play();
-  icone.src="../assets/musicOff.png";
+  icone.setAttribute('src',"src/assets/musicOff.png") ;
   } else {
   audio.pause();
-  icone.src="../assets/musicOn.png";
+  icone.setAttribute('src',"src/assets/musicOn.png") ;
   }
-  });
+  };
 }
+
 </script>
 
 <template>
   <div id="accueil">
     <div id="music">
-      <audio id="musicAudio" src="../assets/GALACTIC_FILMSTRO.mp3">
-      updatez votre navigateur
-      </audio>
-      <button id="musicButton">  
-        <img src="../assets/musicOn.png" alt="icone de son">
+      <button id="musicButton" @click="playMusic()">  
+        <img id="musicIcone" src="../assets/musicOn.png" alt="icone de son">
       </button>
     </div>
     <!-- Place in Body where you'd like intro to appear -->
@@ -76,7 +74,6 @@ if(musicButton && audio && icone) {
 #musicButton {
   width: 100%;
   height: 100%;
-  background-color:#4ee;
 }
 #music img {
   width: 90%;
